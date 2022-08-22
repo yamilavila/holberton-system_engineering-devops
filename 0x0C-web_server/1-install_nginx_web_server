@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Installing nginx
-apt-get update -y
-apt-get install nginx -y
+apt-get update -y;
+apt-get install nginx -y;
 sudo mkdir /etc/nginx/html;
 sudo touch /etc/nginx/html/index.html;
 echo "Hello World!" >> /etc/nginx/html/index.html;
-prinf %s "server {
+printf %s "server {
 listen 80 default_server;
 listen [::]:80 default_server;
 root /etc/nginx/html;
