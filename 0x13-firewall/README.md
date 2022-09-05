@@ -41,7 +41,7 @@ Be very careful with firewall rules! For instance, if you ever deny port 22/TCP 
 
    * A hardware security system
 
-   * A hardware or software security system
+   * **A hardware or software security system**
 
    * A software security system
 
@@ -53,13 +53,13 @@ Be very careful with firewall rules! For instance, if you ever deny port 22/TCP 
 
    * Incoming and outgoing firewall
 
-   * Network and host-based firewall
+   *  **Network and host-based firewall**
 
 ### Question #2
 
 ~~ What is the main function of a firewall?
 
-   * To filter incoming and outgoing network traffic
+   *  **To filter incoming and outgoing network traffic**
 
    * To filter incoming and outgoing TCP traffic
 
