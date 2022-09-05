@@ -1,5 +1,5 @@
 # 0x12. Web stack debugging #2
-=============================
+
 ![jedai](https://user-images.githubusercontent.com/98177999/188511043-2d43c798-f8ae-4877-ab61-7d8ce83214bf.png)
 
 #### Requirements
