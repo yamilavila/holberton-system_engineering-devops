@@ -65,3 +65,4 @@ Be very careful with firewall rules! For instance, if you ever deny port 22/TCP 
 
    * To filter outgoing traffic
 
+![firewall](https://user-images.githubusercontent.com/98177999/188509918-d1b1ce5b-ffd2-458d-a815-c06eae8eebde.png)
