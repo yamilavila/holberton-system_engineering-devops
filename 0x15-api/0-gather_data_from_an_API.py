@@ -8,11 +8,11 @@ from sys import argv
 if __name__ == '__main__':
 
     employee_id = argv[1]
-    user = request.get('https://jsonplaceholder.typicode.com/users/{}'
+    user = request.get('https://jsonplaceholder.typicode.com/users'
                        .format(employee_id))
 
     name_employee = user.jason()['name']
-    todo = request.get('https://jsonplaceholder.typicode.com/todos?userId={}'
+    todo = request.get('https://jsonplaceholder.typicode.com/todos'
                        .format(employee_id))
 
     todo = todo.json()
