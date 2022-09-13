@@ -9,9 +9,9 @@ if __name__ == '__main__':
     url = 'https://jsonplaceholder.typicode.com'
     user = requests.get('{}/users/{}'.format(url, employee_id)).json()
     user_name = user.get('name')
-    tasks_completed = []
+    tasks_completeid = []
     tasks_total = requests.get('{}/todos?userId={}'.format(url,
-                                                          employee_id)).json()
+                                                           employee_id)).json()
     for task in tasks_total:
         if task['completed'] is True:
             tasks_completed.append(task['title'])
