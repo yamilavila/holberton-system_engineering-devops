@@ -12,7 +12,6 @@ if __name__ == '__main__':
     completed_tasks = []
     total_task = requests.get('{}/todos?userId={}'.format(url,
                                                           employee_id)).json()
-    
     for task in total_task:
         if task["completed"] is True:
             completed_task.append(task['title'])
