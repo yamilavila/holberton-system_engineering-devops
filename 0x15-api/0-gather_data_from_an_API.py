@@ -9,7 +9,7 @@ if __name__ == '__main__':
     url = 'https://jsonplaceholder.typicode.com'
     user = requests.get('{}/users/{}'.format(url, employee_id)).json()
     user_name = user.get('name')
-    tasks_complete = []
+    tasks_completed = []
     tasks_total = requests.get('{}/todos?userId={}'.format(url,
                                                            employee_id)).json()
     for task in tasks_total:
