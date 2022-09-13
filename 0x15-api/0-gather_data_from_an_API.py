@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Gather data from an API"""
 import requests
-from sys
+import sys
 
 
 if __name__ == '__main__':
