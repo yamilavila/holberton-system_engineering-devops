@@ -6,7 +6,9 @@ import requests
 
 def number_of_subscribers(subreddit):
 
-    api_header = { 'User-Agent': 'Mozilla/5.0'}
+    api_header = {
+            'User-Agent': 'Mozilla/5.0'
+            }
 
     api_url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     api_res = request.get(api_url, headers=api_header, allow_redirects=False)
