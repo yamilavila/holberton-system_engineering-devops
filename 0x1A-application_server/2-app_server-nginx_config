@@ -1,2 +1,10 @@
 # Task 2
+server {
+        listen 80;
+        server_name 54.92.204.96;
 
+        location / {
+                include proxy_params;
+                proxy_pass http://unix:/home/ubuntu/AirBnB_clone_v2/web_flask/web_flask.sock;
+        }
+}
